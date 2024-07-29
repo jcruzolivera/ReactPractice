@@ -12,6 +12,12 @@
   "devDependencies": {
     "typescript": "3.3.3"
   },
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": [
+    "src"
+  ],
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
